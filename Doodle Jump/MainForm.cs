@@ -81,8 +81,8 @@ namespace Doodle_Jump
 
             objects_menu = Doodle_Jump.Menu.ObjectMenu.ListObjectMenu();
 
-            mGlTextureObject[0] = Texture.Texture.LoadImage(@"..\..\..\..\images\doodle-left.png");
-            mGlTextureObject[1] = Texture.Texture.LoadImage(@"..\..\..\..\images\doodle-right.png");
+            mGlTextureObject[0] = Texture.Texture.LoadImage(@"..\..\..\images\doodle-left.png");
+            mGlTextureObject[1] = Texture.Texture.LoadImage(@"..\..\..\images\doodle-right.png");
             mGlTextureObject[2] = Texture.Texture.LoadImage(@"..\..\..\images\static_panel.png");
             mGlTextureObject[3] = Texture.Texture.LoadImage(@"..\..\..\images\move_panel.png");
             mGlTextureObject[4] = Texture.Texture.LoadImage(@"..\..\..\images\doodle-jump-left.png");
